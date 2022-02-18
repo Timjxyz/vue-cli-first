@@ -2,19 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <ilMioComponente></ilMioComponente>
-    <componenthero></componenthero>
+    <componentHero></componentHero>
   </div>
 </template>
 
 <script>
 import ilMioComponente from './components/ilMioComponente.vue'
-import componenthero from './components/componenthero.vue'
+import componentHero from './components/componentHero.vue'
 
 export default {
   name: 'App',
   components: {
     ilMioComponente,
-    componenthero
+    componentHero
   }
 }
 </script>
